@@ -1,0 +1,28 @@
+# AdaptiveGesture - Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core computer vision & hand tracking
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+
+# Mouse/keyboard control
+pyautogui>=0.9.54
+
+# Voice recognition (optional but recommended)
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.13          # Required by SpeechRecognition for mic access
+
+# Numerical computation
+numpy>=1.24.0
+
+# GUI dialogs
+# tkinter is part of Python standard library (no install needed)
+# If missing on Linux: sudo apt-get install python3-tk
+
+# Optional: text-to-speech feedback
+# pyttsx3>=2.90
+
+# Optional: faster audio on Linux
+# pyaudio is often tricky — if it fails, try:
+#   sudo apt-get install portaudio19-dev python3-pyaudio
+#   or: pip install pipwin && pipwin install pyaudio   (Windows)
